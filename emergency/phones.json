@@ -1,0 +1,368 @@
+{
+  "version": "1",
+  "updated": "2026-01-05",
+  "data": [
+    {
+      "id": 1,
+      "name": "Ευρωπαϊκός Αριθμός Έκτακτης Ανάγκης",
+      "number": "112",
+      "icon": "com.werilapps.agenda.R.drawable.logo112",
+      "category": "EMERGENCY",
+      "isEmergency": true
+    },
+    {
+      "id": 2,
+      "name": "Αστυνομία",
+      "number": "100",
+      "icon": "com.werilapps.agenda.R.drawable.logo100",
+      "category": "EMERGENCY",
+      "isEmergency": true
+    },
+    {
+      "id": 3,
+      "name": "ΕΚΑΒ",
+      "number": "166",
+      "icon": "com.werilapps.agenda.R.drawable.logo166",
+      "category": "EMERGENCY",
+      "isEmergency": true
+    },
+    {
+      "id": 4,
+      "name": "Πυροσβεστική",
+      "number": "199",
+      "icon": "com.werilapps.agenda.R.drawable.logo199",
+      "category": "EMERGENCY",
+      "isEmergency": true
+    },
+    {
+      "id": 5,
+      "name": "Λιμενικό",
+      "number": "108",
+      "icon": "com.werilapps.agenda.R.drawable.logo108",
+      "category": "EMERGENCY",
+      "isEmergency": true
+    },
+    {
+      "id": 6,
+      "name": "Οδική Βοήθεια EXPRESS SERVICE",
+      "number": "1154",
+      "icon": 0,
+      "category": "TRANSPORT"
+    },
+    {
+      "id": 7,
+      "name": "Γραμμή Ζωής SOS",
+      "number": "1065",
+      "icon": 0,
+      "category": "EMERGENCY"
+    },
+    {
+      "id": 8,
+      "name": "Γραμμή Άμεσης Κοινωνικής Βοήθειας",
+      "number": "197",
+      "icon": 0,
+      "category": "SOCIAL"
+    },
+    {
+      "id": 9,
+      "name": "Γραμμή Παιδικής Προστασίας",
+      "number": "1107",
+      "icon": 0,
+      "category": "SOCIAL"
+    },
+    {
+      "id": 10,
+      "name": "Διεύθυνση Δίωξης Ηλεκτρονικού Εγκλήματος",
+      "number": "11188",
+      "icon": 0,
+      "category": "PUBLIC"
+    },
+    {
+      "id": 11,
+      "name": "Αντιτρομοκρατική",
+      "number": "1014",
+      "icon": 0,
+      "category": "EMERGENCY"
+    },
+    {
+      "id": 12,
+      "name": "Ιατροί SOS",
+      "number": "1016",
+      "icon": 0,
+      "category": "HEALTH"
+    },
+    {
+      "id": 13,
+      "name": "Υπηρεσία Δίωξης Ναρκωτικών",
+      "number": "109",
+      "icon": 0,
+      "category": "EMERGENCY"
+    },
+    {
+      "id": 14,
+      "name": "Εφημ. Ιατροί Αθήνας - Πειραιά",
+      "number": "105",
+      "icon": 0,
+      "category": "HEALTH"
+    },
+    {
+      "id": 15,
+      "name": "Εφημ. Ιατροί Δήμων Πρωτεύουσας",
+      "number": "101",
+      "icon": 0,
+      "category": "HEALTH"
+    },
+    {
+      "id": 16,
+      "name": "ΚΕΠ",
+      "number": "1564",
+      "icon": 0,
+      "category": "PUBLIC"
+    },
+    {
+      "id": 17,
+      "name": "Γενική Γραμματεία Καταναλωτή",
+      "number": "1520",
+      "icon": 0,
+      "category": "PUBLIC"
+    },
+    {
+      "id": 18,
+      "name": "ΟΤΕ - Βλάβες",
+      "number": "13888",
+      "icon": 0,
+      "category": "UTILITY"
+    },
+    {
+      "id": 19,
+      "name": "Οργανισμός Αστικών Συγκοινωνιών",
+      "number": "11185",
+      "icon": 0,
+      "category": "TRANSPORT"
+    },
+    {
+      "id": 20,
+      "name": "Ώρα Ελλάδας",
+      "number": "14844",
+      "icon": 0,
+      "category": "INFO"
+    },
+    {
+      "id": 21,
+      "name": "Δρομολόγια Πλοίων & Μεταφορών",
+      "number": "14541",
+      "icon": 0,
+      "category": "TRANSPORT"
+    },
+    {
+      "id": 22,
+      "name": "NOVA Τεχνικά Θέματα",
+      "number": "13700",
+      "icon": 0,
+      "category": "UTILITY"
+    },
+    {
+      "id": 23,
+      "name": "Αποτελέσματα Αγώνων Στοιχήματος",
+      "number": "14744",
+      "icon": 0,
+      "category": "INFO"
+    },
+    {
+      "id": 24,
+      "name": "Γραμμή για την Υγεία",
+      "number": "1535",
+      "icon": 0,
+      "category": "HEALTH"
+    },
+    {
+      "id": 25,
+      "name": "Υπηρεσίες Πληροφοριών COSMOTE",
+      "number": "11831",
+      "icon": 0,
+      "category": "INFO"
+    },
+    {
+      "id": 26,
+      "name": "NOVA Εταιρικοί Πελάτες",
+      "number": "1277",
+      "icon": 0,
+      "category": "UTILITY"
+    },
+    {
+      "id": 27,
+      "name": "ΚΤΕΟ",
+      "number": "1425",
+      "icon": 0,
+      "category": "PUBLIC"
+    },
+    {
+      "id": 28,
+      "name": "Γιατροί κατ’ οίκον",
+      "number": "1151",
+      "icon": 0,
+      "category": "HEALTH"
+    },
+    {
+      "id": 29,
+      "name": "ΕΥΔΑΠ - Βλάβες",
+      "number": "1022",
+      "icon": 0,
+      "category": "UTILITY"
+    },
+    {
+      "id": 30,
+      "name": "Εφημερεύοντα Νοσοκομεία Αττικής",
+      "number": "1434",
+      "icon": 0,
+      "category": "HEALTH"
+    },
+    {
+      "id": 31,
+      "name": "Ιατρική Βοήθεια INTERAMERICAN",
+      "number": "1010",
+      "icon": 0,
+      "category": "HEALTH"
+    },
+    {
+      "id": 32,
+      "name": "Πληροφορίες Καταλόγου",
+      "number": "11888",
+      "icon": 0,
+      "category": "INFO"
+    },
+    {
+      "id": 33,
+      "name": "Ραντεβού & Πληροφορίες ΠΕΔΥ",
+      "number": "14784",
+      "icon": 0,
+      "category": "HEALTH"
+    },
+    {
+      "id": 34,
+      "name": "Τηλεπληροφορίες Εξωτερικού",
+      "number": "11889",
+      "icon": 0,
+      "category": "INFO"
+    },
+    {
+      "id": 35,
+      "name": "Τηλεπληροφορίες ΟΤΕ",
+      "number": "14944",
+      "icon": 0,
+      "category": "INFO"
+    },
+    {
+      "id": 36,
+      "name": "FREE2GO / Q",
+      "number": "13800",
+      "icon": 0,
+      "category": "UTILITY"
+    },
+    {
+      "id": 37,
+      "name": "NOVA Κέντρο Εξυπηρέτησης",
+      "number": "13731",
+      "icon": 0,
+      "category": "UTILITY"
+    },
+    {
+      "id": 38,
+      "name": "VODAFONE Εξυπηρέτηση Πελατών",
+      "number": "13830",
+      "icon": 0,
+      "category": "UTILITY"
+    },
+    {
+      "id": 39,
+      "name": "VODAFONE Εταιρικοί Πελάτες",
+      "number": "1399",
+      "icon": 0,
+      "category": "UTILITY"
+    },
+    {
+      "id": 40,
+      "name": "COSMOTE Πελάτες Συμβολαίου",
+      "number": "13888",
+      "icon": 0,
+      "category": "UTILITY"
+    },
+    {
+      "id": 41,
+      "name": "COSMOTE Εταιρικοί Πελάτες",
+      "number": "13818",
+      "icon": 0,
+      "category": "UTILITY"
+    },
+    {
+      "id": 42,
+      "name": "NOVA",
+      "number": "13800",
+      "icon": 0,
+      "category": "UTILITY"
+    },
+    {
+      "id": 43,
+      "name": "COSMOTE Έλεγχος Υπολοίπου",
+      "number": "1314",
+      "icon": 0,
+      "category": "UTILITY"
+    },
+    {
+      "id": 44,
+      "name": "VODAFONE Έλεγχος Υπολοίπου",
+      "number": "1284",
+      "icon": 0,
+      "category": "UTILITY"
+    },
+    {
+      "id": 45,
+      "name": "NOVA Έλεγχος Υπολοίπου",
+      "number": "1277",
+      "icon": 0,
+      "category": "UTILITY"
+    },
+    {
+      "id": 46,
+      "name": "FROG Έλεγχος Υπολοίπου",
+      "number": "1298",
+      "icon": 0,
+      "category": "UTILITY"
+    },
+    {
+      "id": 47,
+      "name": "Q Έλεγχος Υπολοίπου",
+      "number": "1225",
+      "icon": 0,
+      "category": "UTILITY"
+    },
+    {
+      "id": 48,
+      "name": "Κέντρο Αιμοδοσίας",
+      "number": "2108219391",
+      "icon": 0,
+      "category": "HEALTH"
+    },
+    {
+      "id": 49,
+      "name": "Συνήγορος του Πολίτη",
+      "number": "2107289600",
+      "icon": 0,
+      "category": "PUBLIC"
+    },
+    {
+      "id": 50,
+      "name": "Υπηρεσία Εξυπηρέτησης Πολιτών",
+      "number": "1502",
+      "icon": 0,
+      "category": "PUBLIC"
+    },
+    {
+      "id": 51,
+      "name": "Κέντρο Δηλητηριάσεων",
+      "number": "2107793777",
+      "icon": 0,
+      "category": "HEALTH"
+    }
+  ]
+}
