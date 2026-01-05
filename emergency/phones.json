@@ -1,12 +1,12 @@
 {
-  "version": "1",
+  "version": "2",
   "updated": "2026-01-05",
   "data": [
     {
       "id": 1,
       "name": "Ευρωπαϊκός Αριθμός Έκτακτης Ανάγκης",
       "number": "112",
-      "icon": "com.werilapps.agenda.R.drawable.logo112",
+      "icon": "logo112",
       "category": "EMERGENCY",
       "isEmergency": true
     },
@@ -14,7 +14,7 @@
       "id": 2,
       "name": "Αστυνομία",
       "number": "100",
-      "icon": "com.werilapps.agenda.R.drawable.logo100",
+      "icon": "logo100",
       "category": "EMERGENCY",
       "isEmergency": true
     },
@@ -22,7 +22,7 @@
       "id": 3,
       "name": "ΕΚΑΒ",
       "number": "166",
-      "icon": "com.werilapps.agenda.R.drawable.logo166",
+      "icon": "logo166",
       "category": "EMERGENCY",
       "isEmergency": true
     },
@@ -30,7 +30,7 @@
       "id": 4,
       "name": "Πυροσβεστική",
       "number": "199",
-      "icon": "com.werilapps.agenda.R.drawable.logo199",
+      "icon": "logo199",
       "category": "EMERGENCY",
       "isEmergency": true
     },
@@ -38,7 +38,7 @@
       "id": 5,
       "name": "Λιμενικό",
       "number": "108",
-      "icon": "com.werilapps.agenda.R.drawable.logo108",
+      "icon": "logo108",
       "category": "EMERGENCY",
       "isEmergency": true
     },
