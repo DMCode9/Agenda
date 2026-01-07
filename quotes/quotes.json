@@ -1,5 +1,5 @@
 {
-  "version": "1",
+  "version": "2",
   "updated": "2026-01-07",
   "data": [
     {
@@ -416,7 +416,7 @@
         "name": "Ανώνυμος",
         "birthYear": null,
         "deathYear": null,
-        "description": "Άγνωστος",
+        "description": null,
         "type": "PERSONALITY"
       }
     },
@@ -427,7 +427,7 @@
         "name": "Ανώνυμος",
         "birthYear": null,
         "deathYear": null,
-        "description": "Άγνωστος",
+        "description": null,
         "type": "PERSONALITY"
       }
     },
@@ -504,7 +504,7 @@
         "name": "Ανώνυμος",
         "birthYear": null,
         "deathYear": null,
-        "description": "Άγνωστος",
+        "description": null,
         "type": "PERSONALITY"
       }
     },
@@ -559,7 +559,7 @@
         "name": "Ανώνυμος",
         "birthYear": null,
         "deathYear": null,
-        "description": "Άγνωστος",
+        "description": null,
         "type": "PERSONALITY"
       }
     },
@@ -713,7 +713,7 @@
         "name": "Ανώνυμος",
         "birthYear": null,
         "deathYear": null,
-        "description": "Άγνωστος",
+        "description": null,
         "type": "PERSONALITY"
       }
     },
