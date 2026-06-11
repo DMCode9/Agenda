@@ -1,18 +1,24 @@
 import json
+import os
 
-# Όνομα του αρχείου JSON
+# 1. Εντοπισμός του φακέλου στον οποίο βρίσκεται το παρόν script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# 2. Σύνδεση του φακέλου του script με το όνομα του αρχείου JSON
 file_name = "names_gr_decrypted.json"
+full_file_path = os.path.join(script_dir, file_name)
+
 
 def find_max_id(file_path):
-    """
-    Διαβάζει ένα αρχείο JSON, εντοπίζει τη λίστα "data"
+    """Διαβάζει ένα αρχείο JSON, εντοπίζει τη λίστα "data"
+
     και βρίσκει τη μεγαλύτερη τιμή στο πεδίο "id" των αντικειμένων.
     """
     try:
-        # Άνοιγμα και ανάγνωση του αρχείου JSON
-        with open(file_path, 'r', encoding='utf-8') as f:
+        # Άνοιγμα και ανάγνωση του αρχείου JSON με το πλήρες μονοπάτι
+        with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-            
+
     except FileNotFoundError:
         print(f"Σφάλμα: Το αρχείο '{file_path}' δεν βρέθηκε.")
         return None
@@ -25,17 +31,21 @@ def find_max_id(file_path):
 
     # Έλεγχος αν υπάρχει το κλειδί "data" και αν είναι λίστα
     if "data" in data and isinstance(data["data"], list):
-        
+
         # Λίστα για αποθήκευση όλων των τιμών "id"
         ids = []
-        
+
         for item in data["data"]:
             # Έλεγχος αν υπάρχει το κλειδί "id" και αν είναι αριθμός
-            if "id" in item and (isinstance(item["id"], int) or isinstance(item["id"], float)):
+            if "id" in item and (
+                isinstance(item["id"], int) or isinstance(item["id"], float)
+            ):
                 ids.append(item["id"])
             else:
-                print(f"Προειδοποίηση: Ένα αντικείμενο στη λίστα 'data' δεν έχει έγκυρο πεδίο 'id'.")
-        
+                print(
+                    f"Προειδοποίηση: Ένα αντικείμενο στη λίστα 'data' δεν έχει έγκυρο πεδίο 'id'."
+                )
+
         # Εύρεση της μέγιστης τιμής, αν η λίστα δεν είναι κενή
         if ids:
             max_id = max(ids)
@@ -44,11 +54,14 @@ def find_max_id(file_path):
             print("Δεν βρέθηκαν έγκυρες τιμές 'id' στη λίστα 'data'.")
             return None
     else:
-        print("Σφάλμα: Το JSON δεν περιέχει το κλειδί 'data' ή δεν είναι λίστα.")
+        print(
+            "Σφάλμα: Το JSON δεν περιέχει το κλειδί 'data' ή δεν είναι λίστα."
+        )
         return None
 
-# Εκτέλεση της συνάρτησης και εμφάνιση του αποτελέσματος
-max_value = find_max_id(file_name)
+
+# Εκτέλεση της συνάρτησης χρησιμοποιώντας το full_file_path
+max_value = find_max_id(full_file_path)
 
 if max_value is not None:
     print(f"\nΟ μεγαλύτερος αριθμός στο πεδίο 'id' είναι: **{max_value}**")
